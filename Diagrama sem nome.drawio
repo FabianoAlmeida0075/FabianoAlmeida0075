@@ -1,9 +1,86 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
-  <diagram name="Página-1" id="78T7JMvyTDQuigwVmC_x">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Página-1" id="5wGUaTUDrfaacfuQd3Wr">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Comparison Logic" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="129" width="157" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Main Process" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="215" y="8" width="1389" height="276" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Start" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="3">
+          <mxGeometry x="46" y="121" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Get 5 Rarity Options" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="3">
+          <mxGeometry x="171" y="49" width="194" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Analysis" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3">
+          <mxGeometry x="440" y="122" width="117" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Compare Rarity" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="3">
+          <mxGeometry x="697" y="122" width="141" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Better Rarity Identified" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3">
+          <mxGeometry x="1010" y="122" width="228" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Stop" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="3">
+          <mxGeometry x="1313" y="123" width="47" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="3" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.49;" edge="1" parent="3" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Option 1" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0;entryX=0.24;entryY=0;" edge="1" parent="3" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="627" y="53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Option 2" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.03;entryX=0.02;entryY=0;" edge="1" parent="3" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="627" y="96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Option 3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="3" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Option 4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0.02;entryY=0.99;" edge="1" parent="3" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="627" y="197" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Option 5" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0.99;entryX=0.24;entryY=0.99;" edge="1" parent="3" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="627" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Better Rarity" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="3" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=-0.01;entryY=0.49;" edge="1" parent="3" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
